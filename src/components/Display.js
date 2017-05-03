@@ -7,7 +7,7 @@ export default class Display extends React.Component {
   render(){
     return(
       <div>
-        <input className="materialize-textarea" value={this.props.expression} readOnly/>
+        <input className="materialize-textarea display" value={this.props.expression} readOnly/>
       </div>
     );
   }

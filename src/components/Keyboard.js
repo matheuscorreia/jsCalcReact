@@ -35,10 +35,10 @@ export default class Keyboard extends React.Component {
           <div className="col s3">
 
             <Key
-              label=""
+              label={[<i key="smile" className='material-icons'>insert_emoticon</i>]}
               type="normal"
               color="red darken-1"
-              onClick={this.props.onEasterEggClick}
+              onClick={()=> { }}
             />
 
           </div>
