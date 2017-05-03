@@ -1,0 +1,9 @@
+.btn{
+  display: block;
+  border-radius: 0px;
+  text-align: center;
+  padding: 0px;
+}
+.row .col {
+  padding: 0px 5px 0px 5px;
+}
